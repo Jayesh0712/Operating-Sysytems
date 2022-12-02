@@ -51,7 +51,7 @@
 int main()
 {
     int fd;
-    char * myfifo = "/myfifo";
+    char * myfifo = "/tmp/myfifo";
     mkfifo(myfifo, 0666);
 
     char arr1[80], arr2[80];
