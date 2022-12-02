@@ -43,7 +43,7 @@
 int main()
 {
     int fd1;
-    char * myfifo = "/myfifo";
+    char * myfifo = "/tmp/myfifo";
 
     mkfifo(myfifo, 0666);
 
